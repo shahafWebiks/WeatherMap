@@ -1,0 +1,54 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li button:hover {
+    background-color: #ddd;
+    padding: 14px 16px;
+    color: black;
+}
+li button {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    border: none;
+    background-color: #333;
+}
+table{
+    height: 80px;
+}
+tr,td{
+    width: 150px;
+}
+[name~=marker] {
+    background-image:
+            url('https://unpkg.com/leaflet@1.3.1/dist/images/marker-icon-2x.png');
+    background-size:100%;
+    width: 13px;
+    height: 20px;
+    cursor: pointer;
+}
+#mapid {
+    width: 700px;
+    height: 600px;
+    /*left: 30%;*/
+    /*margin-top: 60px;*/
+    /*margin-left: 100px;*/
+}
+.grid-container {
+    display: grid;
+    grid-template: auto auto/ auto auto;
+    text-align: center;
+}
+.item1 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
