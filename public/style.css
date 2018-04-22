@@ -39,14 +39,10 @@ tr,td{
 #mapid {
     width: 700px;
     height: 600px;
-    /*left: 30%;*/
-    /*margin-top: 60px;*/
-    /*margin-left: 100px;*/
 }
 .grid-container {
     display: grid;
     grid-template: auto auto/ auto auto;
-    text-align: center;
 }
 .item1 {
     grid-column: 1 / span 2;
